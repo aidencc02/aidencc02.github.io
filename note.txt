@@ -1,0 +1,15 @@
+Open gitbash on your desktop
+
+Commdns to open directory:
+cd 
+cd CODE 
+cd aidencc02.github.io  
+
+git status : information on everything 
+git add .  : add changes
+git commit -m "Updates"
+git push : actually push the changes online (will automatically change website)
+
+
+
+
