@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R3GFJ5386Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-R3GFJ5386Y');
+</script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Dale's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.0/css/all.css">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#strengths">Strengths</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm <span>John Dale</span><br>a <span class="auto-input"></span></h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/headshot.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Motivated Computer Engineering Student pursuing challenging opportunities in Software Engineering, Embeeded Systems, and Automation. My strong academic background and continuous learning approach allows me to quickly pickup skills and be a dynamic leader in fast paced environments. </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <div class="skills-container">
+                      <div class="skills-column">
+                        <ul>
+                            <li><span>Programming</span></li>
+                            <div class="comfortability">
+                                <li class="skill-name">Python</li>
+                                <div class="comfort-box"></div>
+                                <div class="comfort-box"></div>
+                                <div class="comfort-box"></div>
+                              </div>
+                              <div class="comfortability">
+                                <li class="skill-name">C/C++</li>
+                                <div class="comfort-box"></div>
+                                <div class="comfort-box"></div>
+                                <div class="comfort-box not"></div>
+                              </div>
+                              <div class="comfortability">
+                                <li class="skill-name">Bash</li>
+                                <div class="comfort-box"></div>
+                                <div class="comfort-box"></div>
+                                <div class="comfort-box not"></div>
+                              </div>
+                              <div class="comfortability">
+                                <li class="skill-name">SQL</li>
+                                <div class="comfort-box"></div>
+                                <div class="comfort-box"></div>
+                                <div class="comfort-box not"></div>
+                              </div>
+                              <div class="comfortability">
+                                <li class="skill-name">HTML/CSS</li>
+                                <div class="comfort-box"></div>
+                                <div class="comfort-box"></div>
+                                <div class="comfort-box not"></div>
+                              </div>
+                              <div class="comfortability">
+                                <li class="skill-name">Javascript</li>
+                                <div class="comfort-box"></div>
+                                <div class="comfort-box not"></div>
+                                <div class="comfort-box not"></div>
+                              </div>
+                        </ul>
+                      </div>
+                      <div class="skills-column">
+                        <ul>
+                            <li><span>Technologies</span></li>
+                            <div class="comfortability">
+                                <li class="skill-name">Linux</li>
+                                <div class="comfort-box"></div>
+                                <div class="comfort-box"></div>
+                                <div class="comfort-box"></div>
+                              </div>
+                              <div class="comfortability">
+                                <li class="skill-name">AWS Services</li>
+                                <div class="comfort-box"></div>
+                                <div class="comfort-box"></div>
+                                <div class="comfort-box not"></div>
+                              </div>
+                              <div class="comfortability">
+                                <li class="skill-name">Unity 3D</li>
+                                <div class="comfort-box"></div>
+                                <div class="comfort-box"></div>
+                                <div class="comfort-box not"></div>
+                              </div>
+                              <div class="comfortability">
+                                <li class="skill-name">Wireshark</li>
+                                <div class="comfort-box"></div>
+                                <div class="comfort-box"></div>
+                                <div class="comfort-box not"></div>
+                              </div>
+                              <div class="comfortability">
+                                <li class="skill-name">ROS2</li>
+                                <div class="comfort-box"></div>
+                                <div class="comfort-box not"></div>
+                                <div class="comfort-box not"></div>
+                              </div>
+                              <div class="comfortability">
+                                <li class="skill-name">Selenium</li>
+                                <div class="comfort-box"></div>
+                                <div class="comfort-box not"></div>
+                                <div class="comfort-box not"></div>
+                              </div>
+                        </ul>
+                      </div>
+                      <div class="skills-column">
+                        <ul>
+                            <li><span>Electronics</span></li>
+                            <div class="comfortability">
+                                <li class="skill-name">Microcontrollers</li>
+                                <div class="comfort-box"></div>
+                                <div class="comfort-box"></div>
+                                <div class="comfort-box"></div>
+                              </div>
+                            <div class="comfortability">
+                                <li class="skill-name">Soldering</li>
+                                <div class="comfort-box"></div>
+                                <div class="comfort-box"></div>
+                                <div class="comfort-box"></div>
+                              </div>
+                              <div class="comfortability">
+                                <li class="skill-name">Test Equipment</li>
+                                <div class="comfort-box"></div>
+                                <div class="comfort-box"></div>
+                                <div class="comfort-box not"></div>
+                              </div>
+                              <div class="comfortability">
+                                <li class="skill-name">PCBA Design</li>
+                                <div class="comfort-box"></div>
+                                <div class="comfort-box not"></div>
+                                <div class="comfort-box not"></div>
+                              </div>
+                        </ul>
+                      </div>
+                      <div class="skills-column">
+                        <ul>
+                            <li><span>Industry Tools</span></li>
+                            <div class="comfortability">
+                                <li class="skill-name">Git</li>
+                                <div class="comfort-box"></div>
+                                <div class="comfort-box"></div>
+                                <div class="comfort-box"></div>
+                              </div>
+                              <div class="comfortability">
+                                <li class="skill-name">Confluence / Jira</li>
+                                <div class="comfort-box"></div>
+                                <div class="comfort-box"></div>
+                                <div class="comfort-box"></div>
+                              </div>
+                        </ul>
+                      </div>
+                      <!-- Add more skills columns as needed -->
+                    </div>
+                  </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>June 2023 - August 2023</span><br>MITRE | Computer Engineering Intern</li>
+                    
+                        <li><span>January 2023 - May 2023</span><br>iRobot | Systems Test Automation Engineering Intern</li>
+                        <li><span>May 2023 - August 2023</span><br>National Science Foundation | Cyber-Pysical Drone System Research</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>September 2020 - Present</span><br>Computer Engineering Student @ University of Massachusetts, Amherst </li>
+                        <p>Pursuing my Bachelors of Science in Computer Engineering. Favorite academic courses include:
+                            <li>&#x2022; Operating Systems</li>
+                            <li>&#x2022; Networked Embedded Devices</li>
+                            <li>&#x2022; Image Processing</li>
+                            <li>&#x2022; Embedded Systems Lab</li>
+                            <li>&#x2022; Security Engineering</li>
+                            <li>&#x2022; Computer Hardware Organization and Design</li>
+                            <li>&#x2022; Computer Networking</li>
+                        </p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------strengths---------------- -->
+
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Personal Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <iframe width="1080" height="1920" src="https://www.youtube.com/embed/Ld2qSRDiLE8?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&loop=1&playlist=Ld2qSRDiLE8" frameborder="0" allowfullscreen></iframe>
+                <div class="layer">
+                    <h3>Electric Couch Vehicle</h3>
+                    <p>Electric driving couch built from scratch. Custom 72V 40Ah Li-ion battery from 18650 cells; 5 Miles per charge; 15 MPH top speed; Controlled by Bluetooth PS4 Controller; Programmed in C++</p>
+                    <a href="https://github.com/JohnDale02/Remote-Controlled-Couch-Summer22"><i class="fa-brands fa-github fa-2x"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <iframe width="1080" height="1920" src="https://www.youtube.com/embed/0Rzb6ySqTeI?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&loop=1&playlist=0Rzb6ySqTeI" frameborder="0" allowfullscreen></iframe>
+                <div class="layer">
+                    <h3>Developing Collaborative Mixed Reality Environments</h3>
+                    <p>This project focuses on advancing the state of collaborative mixed reality (MR) environments. It integrates Microsoft's Mixed Reality Toolkit (MRTK2) to enable stable and immersive collaborative MR experiences, while recording over 50 positional and rotational metrics every 100 milliseconds.</p>
+                    <a href="https://github.com/JohnDale02/HoloLens-Collaborative-Mixed-Reality"><i class="fa-brands fa-github fa-2x"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <iframe width="1080" height="1920" src="https://www.youtube.com/embed/PPL2PlqfY_U?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&loop=1&playlist=PPL2PlqfY_U" frameborder="0" allowfullscreen></iframe>
+                <div class="layer">
+                    <h3>HackUMass X Winner: Hacking RFID</h3>
+                    <p>36 Hour Hackathon project: Reverse engineered and reimplemented Wiegand protocol, used in ~40% of RFID systems, through bit-banging. Designed an injectable, "man in the middle", sniffing device. Created a GUI for demonstrating data coming across data lines. Demonstrated remote replay and DoS attacks live</p>
+                    <a href="https://github.com/JohnDale02/HackUMass-Hacking-RFID-Protocol"><i class="fa-brands fa-github fa-2x"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <iframe width="1080" height="1920" src="https://www.youtube.com/embed/G23FMyL76j4?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&loop=1&playlist=G23FMyL76j4" frameborder="0" allowfullscreen></iframe>
+                <div class="layer">
+                    <h3>Email Text-to-MP3 Summarization Tool</h3>
+                    <p>A Python application that will summarize your unread emails over a specified time interval. The summarization will be sent as an text message containing an MP3 file back to the user, allowing them to listen to their unread emails. Utilizes Google API, Twilio API & ChatGPT API</p>
+                    <a href="https://github.com/JohnDale02/Morning-Email-MP3/"><i class="fa-brands fa-github fa-2x"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7_CP-1xDTw0?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&loop=1&playlist=7_CP-1xDTw0" frameborder="0" allowfullscreen></iframe>
+                <div class="layer">
+                    <h3>Temperature Access Control System | Atmega328P</h3>
+                    <p>Access control system that detects people, checks their temperature, and allows/denies entry on a door lock. The system is built upon an Atmega328p, programmed in Ansi C, with an OLED display, 2 Ultrasonic sensors, a DC motor, TMP36 temperature sensor, and 7-segment-LED.</p>
+                    <a href="https://github.com/JohnDale02/Junior-Design-Door-System"><i class="fa-brands fa-github fa-2x"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <iframe width="1080" height="1920" src="https://www.youtube.com/embed/SKbAazcAJbM?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&loop=1&playlist=SKbAazcAJbM" frameborder="0" allowfullscreen></iframe>
+                <div class="layer">
+                    <h3>Node.JS Reactive Personal Website</h3>
+                    <p>A custom Javascript and CSS reactive website to display my personal projects, skills, and experience. Programmed in Summer 20223, it is currently not deployed.</p>
+                    <a href="https://github.com/JohnDale02/Personal_Portfolio"><i class="fa-brands fa-github fa-2x"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <iframe width="1080" height="1920" src="https://www.youtube.com/embed/XSF-Pycsb_0?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&loop=1&playlist=XSF-Pycsb_0" frameborder="0" allowfullscreen></iframe>
+                <div class="layer">
+                    <h3>NVIDIA Jetson Machine Learning</h3>
+                    <p>This project was focused on testing different machine learning models, Posenet & Mobilenet-v2, on the NVIDIA Jetson. These object detection models and pose-estimation models were experimented with for future use in a fitness application</p>
+                    <a href="https://github.com/JohnDale02/ObjectDetection"><i class="fa-brands fa-github fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> johnkdale02@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://github.com/JohnDale02"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/johndale02/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/JohnDaleResume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <div class="thank-you">
+                    <p id="thank-you-message">
+                        Thank you for contacting me. I will be in touch with you very soon.
+                    </p>
+                </div>
+                <form id="submit-form">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed(".auto-input", {
+        strings: ["Computer Engineer", "Student", "Hobbyist", "Problem Solver", "Programmer"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true
+
+    })
+  </script>
+
+<script>
+    const form = document.getElementById('submit-form');
+    const thankYouMessage = document.querySelector('#thank-you-message');
+
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+
+      const formData = new FormData(form);
+      const response = await fetch('https://script.google.com/macros/s/AKfycbxngdKndnb2DNC9TCj2mDaxqBP-tCCgjrlHQV5qsgNR3pG2KYucGInFgrJipeC0keUJ/exec', {
+        method: 'POST',
+        body: formData
+      });
+
+      if (response.ok) {
+        const result = await response.json();
+        if (result.result === 'success') {
+            thankYouMessage.classList.add('show');
+            form.reset();
+            //success
+
+        } else {
+            //failure
+        }
+      } else {
+        // error 
+      }
+    });
+  </script>
+</body>
+</html>
